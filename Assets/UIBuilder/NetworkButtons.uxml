@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIBuilder/buttons-style.uss?fileID=7433441132597879392&amp;guid=d5f47193096eb8a92b6a10efdba45aee&amp;type=3#buttons-style" />
+    <ui:VisualElement name="button-area" style="align-items: flex-end;">
+        <ui:Button text="Start Host" display-tooltip-when-elided="true" name="host" class="button" />
+        <ui:Button text="Start Server" display-tooltip-when-elided="true" name="server" class="button" />
+        <ui:Button text="Start Client" display-tooltip-when-elided="true" enable-rich-text="false" name="client" class="button" />
+    </ui:VisualElement>
+</ui:UXML>
